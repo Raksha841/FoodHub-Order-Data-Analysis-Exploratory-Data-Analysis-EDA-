@@ -52,8 +52,6 @@ The food aggregator company has stored the data of the different orders made by 
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 - **Environment:** Jupyter Notebook / Google Colab
 
-## Repository Structure
-
 ## Author
 **Raksha Chabhadia**
 MBA -Business Analytics
