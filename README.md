@@ -19,3 +19,35 @@ The food aggregator company has stored the data of the different orders made by 
 - **Revenue Analysis:** Net revenue calculation using FoodHub's tiered commission structure (25% on orders >$20, 15% on orders >$5)
 - **Delivery Performance:** Percentage of orders exceeding 60 minutes total delivery time (prep + delivery)
 - **Time Trends:** Weekday vs. weekend delivery time comparison
+
+## Methodology
+
+1. **Data Cleaning** — Checked for and handled missing values, validated data types
+2. **Univariate Analysis** — Histograms, boxplots, and countplots for individual variable distributions
+3. **Multivariate Analysis** — Correlation heatmaps, scatter plots, regression plots, and grouped boxplots to explore relationships (e.g., cost vs. delivery time, cuisine vs. prep time)
+4. **Business Question Answering** — Targeted analysis for 17 structured business questions
+5. **Recommendations** — Synthesized findings into concrete operational recommendations
+
+## Key Findings
+
+- No missing values in the dataset (1,898 rows × 9 columns)
+- Average food preparation time: ~27 minutes; average delivery time: ~24 minutes
+- **Shake Shack** and **The Meatball Shop** are the top two restaurants by order volume
+- **American** cuisine is most popular overall and on weekends specifically
+- 4 restaurants qualify for promotional offers: Blue Ribbon Fried Chicken, Blue Ribbon Sushi, Shake Shack, and The Meatball Shop
+- Net commission revenue generated: **$6,166.30**
+- ~10.54% of orders take more than 60 minutes total (prep + delivery)
+- Weekday deliveries take noticeably longer on average than weekend deliveries
+
+## Recommendations
+
+- Optimize delivery routes/logistics, especially on weekdays, to reduce delivery time
+- Encourage more customers to leave ratings (currently a large share of orders are unrated) via incentives or prompts
+- Leverage top cuisines and top-rated restaurants in targeted promotions and advertising
+- Consider loyalty perks for top repeat customers to drive retention
+
+## Tech Stack
+
+- **Language:** Python
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
+- **Environment:** Jupyter Notebook / Google Colab
