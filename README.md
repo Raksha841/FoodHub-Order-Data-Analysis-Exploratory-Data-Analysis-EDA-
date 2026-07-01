@@ -51,3 +51,19 @@ The food aggregator company has stored the data of the different orders made by 
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 - **Environment:** Jupyter Notebook / Google Colab
+
+## Repository Structure
+
+```
+foodhub-eda-analysis/
+├── README.md
+├── requirements.txt
+├── foodhub_eda_analysis.ipynb
+└── data/
+    └── foodhub_order.csv   # (add if sharing is permitted)
+```
+
+## Author
+
+**Raksha Chabhadia**
+MBA Candidate -Business Analytics
